@@ -28,22 +28,6 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-			 <plugin>
-			      <groupId>org.sonarsource.scanner.maven</groupId>
-			      <artifactId>sonar-maven-plugin</artifactId>
-			      <version>3.6.0</version>
-			      <executions>
-				<execution>
-				  <phase>verify</phase>
-				  <goals>
-				    <goal>sonar</goal>
-				  </goals>
-				</execution>
-			      </executions>
-			      <configuration>
-				<sonar.java.binaries>**/*.java</sonar.java.binaries>
-			      </configuration>
-			</plugin>
 		</plugins>
 	</build>
 </project>
