@@ -41,7 +41,7 @@
 				</execution>
 			      </executions>
 			      <configuration>
-				<sonar.java.binaries>path/to/compiled/classes</sonar.java.binaries>
+				<sonar.java.binaries>**/*.java</sonar.java.binaries>
 			      </configuration>
 			</plugin>
 		</plugins>
