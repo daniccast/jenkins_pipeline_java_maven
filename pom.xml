@@ -6,6 +6,10 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins_pipeline_java_maven</name>
 	<description>For TTFHW of Jenkinsfile within a java project</description>
+	<properties>
+		<sonar.organization>daniccast</sonar.organization>
+		<sonar.projectKey>SonarDemo</sonar.projectKey>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
