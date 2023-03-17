@@ -8,7 +8,7 @@
 	<description>For TTFHW of Jenkinsfile within a java project</description>
 	<properties>
 		<sonar.organization>daniccast</sonar.organization>
-		<sonar.projectKey>SonarDemo</sonar.projectKey>
+		<sonar.projectKey>jenkins_pipeline_java_maven</sonar.projectKey>
 	</properties>
 	<dependencies>
 		<dependency>
